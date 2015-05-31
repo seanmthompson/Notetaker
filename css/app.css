@@ -1,0 +1,125 @@
+body {
+	font-weight: light;
+	font-family: 'Slabo 27px', serif;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+.navbar-default {
+	border: 0;
+	height: 80px;
+	border-radius: 0;
+	background-color: #e7604c;
+}
+
+.navbar-default .container-fluid {
+	padding: 0;
+}
+
+.navbar-default .navbar-collapse {
+	padding: 0;
+}
+
+.navbar-default	a, .navbar-default .navbar-brand {
+		color: #fff;
+		font-size: 30px;
+		margin-left: 15px;
+}
+
+ .navbar-default .navbar-brand {
+	 margin-left: 15px !important;
+	 margin-top: 15px;
+ }
+
+.navbar-default	a:hover, .navbar-default .navbar-brand:hover {
+		color: #ebebeb;
+}
+
+.navbar-default .btn {
+	color: #fff;
+	height: 100%;
+	width: 80px;
+	border-radius: 0;
+	background: none;
+	border: 0;
+	border-left: 1px solid #ef9386;
+}
+
+.navbar-default .btn:active, .navbar-default .btn:focus {
+	outline: 0;
+}
+
+.navbar-default form {
+	margin: 0;	
+	padding: 0;
+	background: #d95c49;
+	height: 80px;
+}
+
+.navbar-default form .glyphicon {
+	font-size: 30px;
+}
+
+.navbar-default input.form-control {
+	height: 80px;
+	margin:0;
+	width: 300px;
+	color: #fff;
+	border: 0;
+	font-size: 30px;
+	background: none;
+}
+
+.navbar-default input:focus, .navbar-default input:active  {
+	outline: 0 !important;	
+}
+
+
+.note {
+	display: block;
+	font-size: 16px;
+	line-height: 23px;
+	color: #006;
+	box-shadow: 0 0 10px #ebebeb;
+	border: 1px solid #ebebeb;
+	margin: 15px 0;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.btn-default {
+	background: #e7604c;
+	border-radius: 0;
+	color: #fff;
+	height: 50px;
+	padding: 0 30px;
+	border: 0;
+	font-size: 20px;
+}
+
+#note {
+	border: 1px solid #ebebeb;
+	height: 50px;
+	position: relative;
+	top: 1px;
+	font-size: 16px;
+	padding-left: 20px;
+}
+
+::-webkit-input-placeholder {
+   color: #fff !important;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #fff;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff;  
+}
+
+:-ms-input-placeholder {  
+   color: #fff;  
+}
